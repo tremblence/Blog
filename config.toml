@@ -1,3 +1,55 @@
-baseURL = "http://example.org/"
+baseURL = "https://tremblence.github.io/RusticVoyager/"
+theme = "hugo-geo"
+relativeURLs = false
 languageCode = "en-us"
+title = "My New Hugo Site"
+disqusShortname = "shortcode-here"
+paginate = 5
+
+[taxonomies]
+	tag = "tags"
+	tutorial = "tutorials"
+
+[params]
+	showglobe = true
+
+	favicon = "favicon.ico"
+	
+	analytics = "code-here"
+
+	email = "alexurquhart@gmail.com"
+
+	profilepic = "img/profpic.jpg"
+
+	
+	title = "MY NAME"
+	subtitle = "MY HUGO BLOG"
+
+	# Social buttons for sidebar
+	# Each of these are optional
+	[[params.socialbuttons]]
+	faicon = "github"
+	url = "https://github.com/tremblence"
+	[[params.socialbuttons]]
+	faicon = "twitter"
+	url = "https://twitter.com/alexanderurq"
+	[[params.socialbuttons]]
+	faicon = "youtube"
+	url = "https://youtube.com"
+	[[params.socialbuttons]]
+	faicon = "google-plus"
+	url = "https://plus.google.com/+YourID"
+
+	[[params.navlinks]]
+	name = "About"
+	url = "about/"
+	
+	[[params.navlinks]]
+	name = "Blog"
+	url = "post/"
+	
+	[[params.navlinks]]
+	name = "Tutorials"
+	url = "tutorials"
+
 title = "My New Hugo Site"
