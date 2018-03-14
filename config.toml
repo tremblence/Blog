@@ -17,13 +17,13 @@ paginate = 5
 	
 	analytics = "code-here"
 
-	email = "alexurquhart@gmail.com"
+	email = "therusticvoyager@gmail.com"
 
 	profilepic = "img/profpic.jpg"
 
 	
-	title = "MY NAME"
-	subtitle = "MY HUGO BLOG"
+	title = "Rustic Voyager"
+	subtitle = "Explore - Love - Create"
 
 	# Social buttons for sidebar
 	# Each of these are optional
@@ -31,11 +31,8 @@ paginate = 5
 	faicon = "github"
 	url = "https://github.com/tremblence"
 	[[params.socialbuttons]]
-	faicon = "twitter"
-	url = "https://twitter.com/alexanderurq"
-	[[params.socialbuttons]]
 	faicon = "youtube"
-	url = "https://youtube.com"
+	url = "https://www.youtube.com/channel/UCJ1oIH3dIChYEeGz8IJjUxg"
 	[[params.socialbuttons]]
 	faicon = "google-plus"
 	url = "https://plus.google.com/+YourID"
