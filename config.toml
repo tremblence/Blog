@@ -2,7 +2,7 @@ baseURL = "https://tremblence.github.io/RusticVoyager/"
 theme = "hugo-geo"
 relativeURLs = false
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Rustic Voyager"
 disqusShortname = "shortcode-here"
 paginate = 5
 
@@ -27,12 +27,20 @@ paginate = 5
 
 	# Social buttons for sidebar
 	# Each of these are optional
-	[[params.socialbuttons]]
+	
+
+	[[params.socialbuttons]]	
 	faicon = "github"
 	url = "https://github.com/tremblence"
-	[[params.socialbuttons]]
+      
+	[[params.socialbuttons]]		
 	faicon = "youtube"
 	url = "https://www.youtube.com/channel/UCJ1oIH3dIChYEeGz8IJjUxg"
+	
+ 	 [[params.socialbuttons]]
+        faicon = "music"
+        url = "https://soundcloud.com/tremblence"
+
 	[[params.socialbuttons]]
 	faicon = "google-plus"
 	url = "https://plus.google.com/+YourID"
@@ -49,4 +57,4 @@ paginate = 5
 	name = "Tutorials"
 	url = "tutorials"
 
-title = "My New Hugo Site"
+title = "Rustic Voyager"
